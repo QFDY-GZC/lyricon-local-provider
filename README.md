@@ -36,7 +36,12 @@
 
 - 如果播放器本身自带歌词功能（如光锥音乐），建议关闭，避免冲突。
 - 内嵌歌词读取依赖 **TagLib** 库，支持 MP3、FLAC、M4A 等常见音频格式。
+  
+## 构建与贡献
 
-## 贡献
+本模块基于 YukiHookAPI 开发，使用 Kotlin 编写。
 
-本模块基于 YukiHookAPI 开发。
+```bash
+git clone https://github.com/QFDY-GZC/lyricon-local-provider.git
+cd lyricon-local-provider
+../gradlew :local-provider:assembleRelease
